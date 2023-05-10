@@ -1,4 +1,5 @@
 import boto3
+import json
 sm_client = boto3.client('sagemaker')
 
 def get_notebook_name():
